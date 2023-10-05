@@ -25,7 +25,7 @@ const manifestForPlugin = {
     ],
     id: '/?source=pwa',
     start_url: '/?source=pwa',
-    background_color: 'red',
+    background_color: '#134b5f',
     display: 'standalone',
     scope: '/',
     splashScreens: [
