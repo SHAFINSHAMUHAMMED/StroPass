@@ -71,6 +71,7 @@ function App() {
   return (
     <section>
       <div className="container">
+      <div className='headding'>Password Generator</div>
         <form id="pg-form" onSubmit={handleOnSubmit}>
           <div className="result">
             <input
