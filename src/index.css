@@ -28,6 +28,15 @@ section {
   width: 90%;
   max-width: 400px;
 }
+.logoHead{
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+}
+.logo{
+  width: 200px;
+  height: 200px;
+}
 .headding{
   font-size: 25px;
   font-weight: 600;
@@ -142,6 +151,17 @@ button:hover {
 @media only screen and (max-width:640px) {
   section {
     padding: 20px 0;
+  } 
+}
+@media only screen and (max-width:640px) {
+  .headding{
+    font-size: 20px;
+    letter-spacing: 1px;
   }
-  
+}
+@media only screen and (max-width:640px) {
+  .logo{
+    width: 150px;
+    height: 150px;
+  }
 }

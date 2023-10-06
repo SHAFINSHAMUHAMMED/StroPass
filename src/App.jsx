@@ -71,6 +71,9 @@ function App() {
   return (
     <section>
       <div className="container">
+        <div className='logoHead'>
+        <img className="logo" src="/passStrong.png" alt="" />
+        </div>
       <div className='headding'>Password Generator</div>
         <form id="pg-form" onSubmit={handleOnSubmit}>
           <div className="result">
